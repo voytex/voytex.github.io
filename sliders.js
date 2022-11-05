@@ -629,8 +629,8 @@ function hideStages(){
 	var stagesNum = parseInt(numberOfStages.value);
 	switch (stagesNum){
 		case 1:
-			document.getElementById("stage2").style.visibility = "hidden";
-			document.getElementById("stage3").style.visibility = "hidden";
+			document.getElementById("stage2").style.display = "none";
+			document.getElementById("stage3").style.display = "none";
 			
 			/*var sliders = document.getElementsByClassName("sliderContainer");
 			for (i = 0; i < sliders.length; i++){
@@ -638,7 +638,7 @@ function hideStages(){
 			}*/
 			
 			var results2 = document.getElementsByClassName("value2");
-      for (i = 0; i < results2.length; i++){
+      		for (i = 0; i < results2.length; i++){
 				results2[i].style.display = "none";
 			}		
 			var results3 = document.getElementsByClassName("value3");
@@ -650,8 +650,8 @@ function hideStages(){
 		  break;
 			
 		case 2:
-			document.getElementById("stage2").style.visibility = "visible";
-			document.getElementById("stage3").style.visibility = "hidden";
+			document.getElementById("stage2").style.display = "block";
+			document.getElementById("stage3").style.display = "none";
 			
 			/*var sliders = document.getElementsByClassName("sliderContainer");
 			for (i = 0; i < sliders.length; i++){
@@ -659,7 +659,7 @@ function hideStages(){
 			}*/
 			
 			var results2 = document.getElementsByClassName("value2");
-      for (i = 0; i < results2.length; i++){
+      		for (i = 0; i < results2.length; i++){
 				results2[i].style.display = "table-cell";
 			}		
 			var results3 = document.getElementsByClassName("value3");
@@ -670,8 +670,8 @@ function hideStages(){
 		  break;
 			
 		case 3:
-			document.getElementById("stage2").style.visibility = "visible";
-			document.getElementById("stage3").style.visibility = "visible";
+			document.getElementById("stage2").style.display = "block";
+			document.getElementById("stage3").style.display = "block";
 			
 			/*var sliders = document.getElementsByClassName("sliderContainer");
 			for (i = 0; i < sliders.length; i++){
@@ -679,7 +679,7 @@ function hideStages(){
 			}*/
 			
 			var results2 = document.getElementsByClassName("value2");
-      for (i = 0; i < results2.length; i++){
+      		for (i = 0; i < results2.length; i++){
 				results2[i].style.display = "table-cell";
 			}		
 			var results3 = document.getElementsByClassName("value3");
@@ -691,20 +691,20 @@ function hideStages(){
 }	
 
 function hideLanding1(){
-	document.getElementById("landingPanel1").style.visibility = "hidden";
+	document.getElementById("landingPanel1").style.display = "none";
 }
 function unhideLanding1(){
-	document.getElementById("landingPanel1").style.visibility = "visible";
+	document.getElementById("landingPanel1").style.display = "block";
 }
 function hideLanding2(){
-	document.getElementById("landingPanel2").style.visibility = "hidden";
+	document.getElementById("landingPanel2").style.display = "none";
 }
 function unhideLanding2(){
-	document.getElementById("landingPanel2").style.visibility = "visible";
+	document.getElementById("landingPanel2").style.display = "block";
 }
 function hideLanding3(){
-	document.getElementById("landingPanel3").style.visibility = "hidden";
+	document.getElementById("landingPanel3").style.display = "none";
 }
 function unhideLanding3(){
-	document.getElementById("landingPanel3").style.visibility = "visible";
+	document.getElementById("landingPanel3").style.display = "block";
 }
