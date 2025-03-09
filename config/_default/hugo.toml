@@ -2,8 +2,8 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Cactus theme example"
 theme = "cactus"
-copyright = "You" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+#copyright = "You" # cactus will use title if copyright is not set
+#disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -27,8 +27,8 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 
 [params]
 
-  colortheme = "white" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
+  colortheme = "dark" # dark, light, white, or classic
+  rss = false # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
@@ -46,19 +46,10 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 
   # Post page settings
   show_updated = true # default
-  showReadTime = true # default
+  showReadTime = false # default
 
   [params.comments]
-    enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
-    [params.comments.utterances]
-      repo = "<github_username>/<github_reponame>"
-      label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
-      theme = "github-light"
-    [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-      #serverName = "" # Defaults to cactus.chat
+    enabled = false # default
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
@@ -71,3 +62,11 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
   [[params.social]]
     name = "email"
     link = "example@example.com"  # no need for "mailto:" in the head
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+  [languages.cz]
+    languageName = "Čeština"
+    contentDir = "content/cz"
