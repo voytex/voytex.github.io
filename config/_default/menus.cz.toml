@@ -1,0 +1,20 @@
+# Main which appears below site header.
+[[main]]
+name = "Domů"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Psaní"
+url = "/posts"
+weight = 2
+
+[[main]]
+name = "Tagy"
+url = "/tags"
+weight = 3
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 4

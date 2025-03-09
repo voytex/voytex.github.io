@@ -9,27 +9,6 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 
 # summaryLength = 2
 
-# Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Writings"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
-
 [markup]
   [markup.tableOfContents]
     endLevel = 4
