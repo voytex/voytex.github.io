@@ -5,16 +5,6 @@ pageRef = "/"
 weight = 10
 
 [[main]]
-name = "blog"
-pageRef = "Blog"
-weight = 20
-
-[[main]]
-name = "projekty"
-pageRef = "Projects"
-weight = 30
-
-[[main]]
 name = "prodávám"
 pageRef = "Selling"
 weight = 40
