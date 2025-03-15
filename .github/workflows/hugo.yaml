@@ -64,6 +64,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Create a CNAME record
+        run: touch public/CNAME && echo "vojtechlukas.cz" > public/CNAME
+        with:
+          path: ./public
 
   # Deployment job
   deploy:
