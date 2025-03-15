@@ -3,3 +3,8 @@
 name = "Home"
 pageRef = "/"
 weight = 1
+
+[[main]]
+name = "contact"
+pageRef = "Contact"
+weight = 50
