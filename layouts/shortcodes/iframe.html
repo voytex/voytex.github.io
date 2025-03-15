@@ -1,0 +1,13 @@
+{{ if .IsNamedParams }}
+<iframe src="{{ .Get  "src" }}" 
+    title="{{ .Get "title" }}"
+    width="{{ default "100%" (.Get "width") }}"
+    height="{{ default "380" (.Get "height") }}"
+    frameborder="{{ .Get "frameborder" }}"
+    allow={{ .Get "allow" }}
+    referrerpolicy="{{ .Get "referrerpolicy" }}" 
+    {{ if .Get "allowfullscreen" }} 
+    allowfullscreen 
+    {{ end }}>
+</iframe>
+{{ end }}

@@ -17,7 +17,15 @@ K vyzkoušení i osobnímu předání v Ostravě (domluva možná).
 - kombo VOX VT100X
 - footswitch VOX VFS5
 
+
 {{< endcolumns >}}
+
+## Ukázka
+
+{{< iframe height="315" src="https://www.youtube.com/embed/koNCmZ4q964?si=ZzZRMxugUw5WEGwF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=true >}}
+V refrénu hraje přímo tenhle kus!
+
+
 ## Galerie
 {{< gallery match="images/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
 
