@@ -17,7 +17,6 @@ theme = ["cactus", "hugo-shortcode-gallery"]
   [markup.highlight]
     codeFences = true
     guessSyntax = false
-    hl_Lines = ""
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = false
@@ -59,9 +58,11 @@ theme = ["cactus", "hugo-shortcode-gallery"]
     name = "linkedin"
     link = "https://www.linkedin.com/in/lukasvojtech/"
   [[params.social]]
+    name = "instagram"
+    link = "https://www.instagram.com/_voytex_/"
+  [[params.social]]
     name = "email"
     link = "vlukas@hotmail.cz"  # no need for "mailto:" in the head
-
 
 [languages]
   [languages.en]
