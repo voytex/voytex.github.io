@@ -1,20 +1,22 @@
 
 [[main]]
-name = "Domů"
-url = "/"
-weight = 1
+name = "domů"
+pageRef = "/"
+weight = 10
 
 [[main]]
-name = "Psaní"
-url = "/posts"
-weight = 2
+name = "blog"
+pageRef = "Blog"
+weight = 20
 
 [[main]]
-name = "Tagy"
-url = "/tags"
-weight = 3
+name = "projekty"
+pageRef = "Projects"
+weight = 30
 
 [[main]]
-name = "About"
-url = "/about"
-weight = 4
+name = "prodávám"
+pageRef = "Selling"
+weight = 40
+
+

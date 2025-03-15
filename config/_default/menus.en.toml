@@ -1,20 +1,5 @@
 
 [[main]]
 name = "Home"
-url = "/"
+pageRef = "/"
 weight = 1
-
-[[main]]
-name = "Writings"
-url = "/posts"
-weight = 2
-
-[[main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[main]]
-name = "About"
-url = "/about"
-weight = 4
