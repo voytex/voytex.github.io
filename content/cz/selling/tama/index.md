@@ -26,6 +26,11 @@ Rád bych to prodal najednou jako celou sadu. Pokud by se ale nikdo nenašel, ro
    - 1 200,-
 
 {{< endcolumns >}}
+
+## Ukázka
+{{< iframe height="315" src="https://www.youtube.com/embed/v3UepE_R9qc?si=_z9m9pdE95PLzjGe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=true >}}
+Hele upřímně nemám moc radost z toho jak to bylo nazvučený jo, ale něco málo se z těch bicích chytnout dá. 
+
 ## Galerie
 {{< gallery match="images/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
 
