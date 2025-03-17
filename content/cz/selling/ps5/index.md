@@ -25,10 +25,10 @@ Osobní předání v Brně nebo v Ostravě. Po proplacení cesty i v okolí.
 ## Galerie
 {{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
 
-{{< box tip >}}
+{{< box warning >}}
   Cena
 
-  # 9 990 CZK
+  # ~~9 990 CZK~~ rezervováno
 {{< /box >}}
 
 
