@@ -28,7 +28,7 @@ Osobní předání v Brně nebo v Ostravě. Po proplacení cesty i v okolí.
 {{< box warning >}}
   Cena
 
-  # ~~9 990 CZK~~ rezervováno
+  # prodáno
 {{< /box >}}
 
 
