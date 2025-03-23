@@ -24,7 +24,7 @@ K vyzkoušení v Ostravě.
 {{< box tip >}}
 Cena
 
-# 3990
+# 3990 CZK
 {{< /box >}}
 
 
