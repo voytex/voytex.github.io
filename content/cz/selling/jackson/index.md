@@ -24,7 +24,7 @@ K vyzkoušení v Ostravě.
 {{< box warning >}}
 Cena
 
-# ~~3990 CZK~~ rezervováno
+# ~~3990 CZK~~ prodáno
 {{< /box >}}
 
 

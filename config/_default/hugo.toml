@@ -70,11 +70,23 @@ theme = ["cactus", "hugo-shortcode-gallery"]
     contentDir = "content/en"
     title = "vojtech lukas"
     [languages.en.params]
-      description = "foobars"
+      description = """
+Musician and software engineer in a ginger package. 
+
+This web shall serve as a hub for my software engineering as well as musical projects. 
+Occasionally, I might throw in some random thought.
+
+Feel free to reach me out if you want to colaborate!"""
 
   [languages.cz]
     languageName = "Čeština"
     contentDir = "content/cz"
     title = "vojtěch lukáš"
     [languages.cz.params]
-      description = "ahoj"
+      description = """
+Hudebník a softwarový inženýr v zrzavém balení.
+
+Tato stránka by měla sloužit jako rozcestník pro moje softwarové i hudební projekty.
+Možná sem občas hodím i nějakou myšlenku.
+
+Pokud byste se chtěli domluvit na spolupráci, neváhejte mě kontaktovat!"""

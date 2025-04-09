@@ -9,8 +9,4 @@ name = "prodávám"
 pageRef = "Selling"
 weight = 40
 
-[[main]]
-name = "kontakt"
-pageRef = "Contact"
-weight = 50
 
