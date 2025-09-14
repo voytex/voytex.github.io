@@ -4,9 +4,5 @@ name = "domů"
 pageRef = "/"
 weight = 10
 
-[[main]]
-name = "prodávám"
-pageRef = "Selling"
-weight = 40
 
 
